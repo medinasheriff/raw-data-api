@@ -66,7 +66,7 @@ USER appuser
 # API and source code, changes here don't invalidate previous layers , You can overwrite this block with -v
 
 # Copy config.txt if you have your configuration setup in config
-# COPY config.txt .
+COPY config.txt ./config.txt
 COPY README.md .
 COPY setup.py .
 COPY pyproject.toml .
